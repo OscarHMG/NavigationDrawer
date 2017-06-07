@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/buy_packages"
+            android:title="Contrata Paquetes"
+            android:icon="@drawable/ic_menu_send"
+            />
+        <item
+            android:id="@+id/suggested_equipment"
+            android:title="Plan y Equipo sugerido"
+            android:icon="@drawable/ic_menu_send"
+            />
+        <item
+            android:id="@+id/my_requests_postpago"
+            android:title="Mis solicitudes"
+            android:icon="@drawable/ic_menu_send"
+            />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Inicio" >
+        </item>
+
+        <item
+            android:id="@+id/my_plan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mi Plan y Equipo" >
+        </item>
+        <item
+            android:id="@+id/recharge"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Recargas" >
+        </item>
+        <item
+            android:id="@+id/call_me"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Llamame no tengo saldo" >
+        </item>
+        <item
+            android:id="@+id/news_promotions"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Noticias y Promociones" >
+        </item>
+        <item
+            android:id="@+id/content_store"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tienda de contenidos" >
+        </item>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ayuda" >
+        </item>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cerrar Sesion" >
+        </item>
+
+    </group>
+</menu>
